@@ -1,0 +1,26 @@
+{
+  "name": "temp-color",
+  "version": "1.0.0",
+  "description": "Convert temperature to RGB color",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymslo/temp-color.git"
+  },
+  "keywords": [
+    "temperature",
+    "celsius",
+    "fahrenheit",
+    "color",
+    "rgb"
+  ],
+  "author": "szymslo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szymslo/temp-color/issues"
+  },
+  "homepage": "https://github.com/szymslo/temp-color#readme"
+}
