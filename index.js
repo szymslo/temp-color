@@ -1,4 +1,4 @@
-const tempToColor = (t, min, max) => {
+function tempToColor(t, min, max) {
 
     if (isNaN(t) || isNaN(min) || isNaN(max)) {
         throw new TypeError('expected only numbers');
@@ -59,4 +59,4 @@ const tempToColor = (t, min, max) => {
     }
 }
 
-module.exports = tempToColor;
+module.exports.tempToColor = tempToColor;
