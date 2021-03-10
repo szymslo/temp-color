@@ -24,7 +24,7 @@ const { r, g, b } = tempToColor(10, -30, 30);
 * _min_ - lowest possible value (scale begins there)
 * _max_ - highest possible value (scale ends there)
 
-### Function returns an object with calculated RGB values
+#### Function returns an object with calculated RGB values
 
 ## Examples
 
@@ -53,4 +53,3 @@ slider.addEventListener('mousemove', () => {
 });
 
 ```
-
