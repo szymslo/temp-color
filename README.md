@@ -25,3 +25,32 @@ const { r, g, b } = tempToColor(10, -30, 30);
 * _max_ - highest possible value (scale ends there)
 
 ### Function returns an object with calculated RGB values
+
+## Examples
+
+#### Change background dynamically based on a value set by a range slider
+
+```
+import {tempToColor} from 'temp-color';
+
+let isHeld = false;
+const box = document.querySelector("#box");
+const slider = document.querySelector("#slider")
+
+slider.addEventListener('mousedown', () => {
+    isHeld = true;
+});
+
+slider.addEventListener('mouseup', () => {
+    isHeld = false;
+});
+
+slider.addEventListener('mousemove', () => {
+    if (isHeld) {
+        const {r,g,b} = tempToColor(parseFloat(slider.value), parseInt(slider.min), parseInt(slider.max));
+        box.style.background = `rgb(${r},${g},${b})`;
+    }
+});
+
+```
+
