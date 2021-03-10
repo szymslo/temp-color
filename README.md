@@ -19,9 +19,9 @@ const { r, g, b } = tempToColor(10, -30, 30);
 
 ```tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}```
 
-### Function _tempToColor_ takes three parameters:
-* __t__ - value that will be scaled into RGB
-* __min__ - lowest possible value (scale begins there)
-* __max__ - highest possible value (scale ends there)
+### Function takes three parameters:
+* _t_ - value that will be scaled into RGB
+* _min_ - lowest possible value (scale begins there)
+* _max_ - highest possible value (scale ends there)
 
-### Function _tempToColor_ returns an object with calculated RGB values
+### Function returns an object with calculated RGB values
