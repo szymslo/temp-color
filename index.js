@@ -1,7 +1,7 @@
 function tempToColor(t, min, max) {
 
-    if (isNaN(t) || isNaN(min) || isNaN(max)) {
-        throw new TypeError('expected only numbers');
+    if (!Number.isFinite(t) || !Number.isFinite(min) || !Number.isFinite(max)) {
+        throw new TypeError('function tempToColor() expected only numbers');
     } else if (t < min) {
         t = min
     } else if (t > max) {
