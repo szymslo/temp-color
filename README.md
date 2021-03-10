@@ -4,18 +4,18 @@
 
 ### Convert temperature, or any other quantity, to a RGB color
 
-# Installation
+## Installation
 
 `npm i temp-color`
 
-# Usage
+## Usage
 
 ```
 import { tempToColor } from 'temp-color';
 
 const { r, g, b } = tempToColor(10, -30, 30);
 ```
-# Parameters
+## Parameters
 
 ```tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}```
 
