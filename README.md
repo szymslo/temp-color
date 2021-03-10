@@ -8,7 +8,14 @@
 
 `npm i temp-color`
 
-# Parameters and return type
+# Usage
+
+```
+import { tempToColor } from 'temp-color';
+
+const { r, g, b } = tempToColor(10, -30, 30);
+```
+# Parameters
 
 ```tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}```
 
@@ -18,11 +25,3 @@
 * __max__ - highest possible value (scale ends there)
 
 ### Function _tempToColor_ returns an object with calculated RGB values
-
-# Usage
-
-```
-import { tempToColor } from 'temp-color';
-
-const { r, g, b } = tempToColor(10, -30, 30);
-```
