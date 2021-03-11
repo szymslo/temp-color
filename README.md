@@ -8,16 +8,20 @@
 
 `npm i temp-color`
 
+`yarn add temp-color`
+
 ## Usage
 
-```
+```js
 import { tempToColor } from 'temp-color';
 
 const { r, g, b } = tempToColor(10, -30, 30);
 ```
 ## Parameters
 
-```tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}```
+```
+tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}
+```
 
 ### Function takes three parameters:
 * _t_ - value that will be scaled into RGB
@@ -30,7 +34,7 @@ const { r, g, b } = tempToColor(10, -30, 30);
 
 #### Change background dynamically based on a value set by a range slider
 
-```
+```js
 import {tempToColor} from 'temp-color';
 
 let isHeld = false;
