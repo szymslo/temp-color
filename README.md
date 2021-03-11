@@ -39,7 +39,7 @@ import {tempToColor} from 'temp-color';
 
 let isHeld = false;
 const box = document.querySelector("#box");
-const slider = document.querySelector("#slider")
+const slider = document.querySelector("#slider");
 
 slider.addEventListener('mousedown', () => {
     isHeld = true;

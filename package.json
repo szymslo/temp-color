@@ -1,6 +1,6 @@
 {
   "name": "temp-color",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert temperature to RGB color",
   "main": "index.js",
   "types": "types/index.d.ts",
