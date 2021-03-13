@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1615661101674" clover="3.2.0">
+  <project timestamp="1615661101674" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="25" coveredconditionals="25" methods="1" coveredmethods="1" elements="66" coveredelements="66" complexity="0" loc="40" ncloc="40" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/home/szymslo/Projekty/temp-color/index.js">
+      <metrics statements="40" coveredstatements="40" conditionals="25" coveredconditionals="25" methods="1" coveredmethods="1"/>
+      <line num="3" count="13" type="cond" truecount="5" falsecount="0"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="9" type="stmt"/>
+      <line num="14" count="9" type="stmt"/>
+      <line num="15" count="9" type="stmt"/>
+      <line num="16" count="9" type="stmt"/>
+      <line num="17" count="9" type="stmt"/>
+      <line num="19" count="9" type="cond" truecount="6" falsecount="0"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="57" count="9" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
