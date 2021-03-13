@@ -1,5 +1,10 @@
 # Temperature To Color
 
+![version](https://img.shields.io/npm/v/temp-color?)
+![size](https://img.shields.io/bundlephobia/minzip/temp-color?color=g)
+![downloads](https://img.shields.io/npm/dw/temp-color?color=g)
+![license](https://img.shields.io/npm/l/temp-color)
+
 ![rgbspectrum](https://user-images.githubusercontent.com/52113159/110655867-b926da80-81bf-11eb-8f0f-44fe82f4129f.jpg)
 
 ### Convert temperature, or any other quantity, to a RGB color
