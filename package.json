@@ -1,11 +1,11 @@
 {
   "name": "temp-color",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Convert temperature to RGB color",
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/szymslo/temp-color/issues"
   },
-  "homepage": "https://github.com/szymslo/temp-color#readme"
+  "homepage": "https://github.com/szymslo/temp-color#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }

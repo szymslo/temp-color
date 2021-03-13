@@ -2,10 +2,12 @@ function tempToColor(t, min, max) {
 
     if (!Number.isFinite(t) || !Number.isFinite(min) || !Number.isFinite(max)) {
         throw new TypeError('function tempToColor() expected only numbers');
+    } else if (min > max) {
+        throw new Error('minimum cannot be greater than maximum');
     } else if (t < min) {
-        t = min
+        t = min;
     } else if (t > max) {
-        t = max
+        t = max;
     }
 
     const nT = (t - min) / (max - min);
