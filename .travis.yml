@@ -1,1 +1,15 @@
+os: linux
 language: node_js
+node_js:
+ - stable
+ - lts/*
+cache:
+    directories:
+      - node_modules
+jobs:
+  include:
+    - stage: release
+      script:
+        - yarn test
+      after_success:
+        - bash <(curl -s https://codecov.io/bash)
