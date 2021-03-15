@@ -1,6 +1,6 @@
 const checkRange = require('./checker');
 
-function tempToColor (t, min, max, mode = 'basic') {
+function tempToColor (t, min, max, mode) {
   if (!Number.isFinite(t) || !Number.isFinite(min) || !Number.isFinite(max)) {
     throw new TypeError('function tempToColor() expected only numbers');
   } else if (min > max) {
@@ -39,7 +39,7 @@ function tempToColor (t, min, max, mode = 'basic') {
         rValue = 255;
         gValue = 1280 - 6 * nT * 255.999;
         bValue = 0;
-      } else if (nT > regions[4]) {
+      } else {
         rValue = 255;
         gValue = 0;
         bValue = 128 - 6 * (1 - nT) * 127.999;
@@ -47,7 +47,6 @@ function tempToColor (t, min, max, mode = 'basic') {
       break;
     }
 
-    case 'basic':
     default: {
       const regions = [1 / 4, (1 / 4) * 2, (1 / 4) * 3];
       if (nT <= regions[0]) {
@@ -62,7 +61,7 @@ function tempToColor (t, min, max, mode = 'basic') {
         rValue = 512 - 4 * (1 - nT) * 255.999;
         gValue = 255;
         bValue = 0;
-      } else if (nT > regions[2]) {
+      } else {
         rValue = 255;
         gValue = 4 * (1 - nT) * 255.999;
         bValue = 0;
