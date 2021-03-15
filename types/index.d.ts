@@ -13,7 +13,7 @@
  * @param {string} mode basic or extended color scaling (default: basic)
  * @returns {Color} object with calculated RGB values
  */
-export declare function tempToColor(t: number, min: number, max: number, mode: string): {
+export declare function tempToColor(t: number, min: number, max: number, mode?: string): {
     r: number;
     g: number;
     b: number;
