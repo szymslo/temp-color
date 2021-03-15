@@ -23,6 +23,8 @@
 import { tempToColor } from 'temp-color';
 
 const { r, g, b } = tempToColor(10, -30, 30);
+
+const { r, g, b } = tempToColor(10, -30, 30, 'extended');
 ```
 ## Parameters
 
