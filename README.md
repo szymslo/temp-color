@@ -27,18 +27,18 @@ const { r, g, b } = tempToColor(10, -30, 30);
 ## Parameters
 
 ```
-tempToColor = (t: number, min: number, max: number) : {r: number, g: number, b: number}
+tempToColor = (t: number, min: number, max: number, mode?: string) : {r: number, g: number, b: number}
 ```
 
 #### Function takes four parameters:
 * _t_ - value that will be scaled into RGB
 * _min_ - lowest possible value (scale begins there)
 * _max_ - highest possible value (scale ends there)
-* _mode_ - OPTIONAL _'basic' (default)_ or _'extended'_
+* _mode_ - OPTIONAL _'basic'_ or _'extended'_
 
 ### Mode
-* basic (default) - scaling from blue to red
-* extended - scaling from violet-blue to violet-red
+* **basic** - scaling from blue to red - DEFAULT
+* **extended** - scaling from violet-blue to violet-red
 
 #### Function returns an object with calculated RGB values
 
