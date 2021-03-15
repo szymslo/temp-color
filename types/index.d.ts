@@ -10,7 +10,7 @@
  * @param {number} t value that will be scaled into RGB
  * @param {number} min lowest possible value; scale begins there
  * @param {number} max highest possible value; scale ends there
- * @param {string} mode basic or extended color scaling (default: basic)
+ * @param {string} mode default or extended color scaling
  * @returns {Color} object with calculated RGB values
  */
 export declare function tempToColor(t: number, min: number, max: number, mode?: string): {
