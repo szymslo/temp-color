@@ -51,6 +51,28 @@ function tempToColor (t, min, max, mode) {
       break;
     }
 
+    case 'half': {
+      const regions = [1 / 4, (1 / 4) * 2, (1 / 4) * 3];
+      if (nT <= regions[0]) {
+        rValue = 0;
+        gValue = 128 + 4 * nT * 127.999;
+        bValue = 0;
+      } else if (nT > regions[0] && nT <= regions[1]) {
+        rValue = 768 - 4 * (1 - nT) * 255.999;
+        gValue = 255;
+        bValue = 0;
+      } else if (nT > regions[1] && nT <= regions[2]) {
+        rValue = 255;
+        gValue = 768 - 4 * nT * 255.999;
+        bValue = 0;
+      } else {
+        rValue = 255;
+        gValue = 0;
+        bValue = 255 - 4 * (1 - nT) * 255.999;
+      }
+      break;
+    }
+
     default: {
       const regions = [1 / 4, (1 / 4) * 2, (1 / 4) * 3];
       if (nT <= regions[0]) {

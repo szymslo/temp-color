@@ -1,11 +1,11 @@
 {
   "name": "temp-color",
-  "version": "1.1.1",
-  "description": "Convert temperature to RGB color",
+  "version": "1.1.2",
+  "description": "Convert any quantity to RGB color",
   "main": "src/index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest --collectCoverage"
   },
   "repository": {
     "type": "git",
