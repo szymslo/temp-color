@@ -66,9 +66,9 @@ function tempToColor (t, min, max, mode) {
         gValue = 768 - 4 * nT * 255.999;
         bValue = 0;
       } else {
-        rValue = 255;
+        rValue = 128 + 4 * (1 - nT) * 127.999;
         gValue = 0;
-        bValue = 255 - 4 * (1 - nT) * 255.999;
+        bValue = 0;
       }
       break;
     }

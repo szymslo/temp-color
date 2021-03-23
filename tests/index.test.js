@@ -114,9 +114,9 @@ describe('testing tempToColor() - main conversion function', () => {
       b: 0
     });
     expect(tempToColor(300, 0, 100, 'half')).toEqual({
-      r: 255,
+      r: 128,
       g: 0,
-      b: 255
+      b: 0
     });
   });
 });

@@ -43,7 +43,7 @@ tempToColor = (t: number, min: number, max: number, mode?: string) : {r: number,
 ### Mode
 * **default** - scaling from blue to red -> no need to provide any additional parameters
 * **extended** - scaling from violet-blue to violet-red -> add _'extended'_ parameter at the end
-* **half** - scaling from green to violet (from good to bad); no blue colors -> add _'half'_ parameter at the end
+* **half** - scaling from green to red (from good to bad); no blue colors -> add _'half'_ parameter at the end
 
 
 #### Function returns an object with calculated RGB values
